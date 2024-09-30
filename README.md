@@ -31,7 +31,9 @@ Code OverviewContentView.swift- State Variables: Manages the state for quotes, r
 yiyanResponse.swift- yiyanResponse: A Codable struct to parse the JSON response from the quotes API.
 Contributing- Fork the repository.
 - Create your feature branch:
+```
 git checkout -b feature/YourFeature
+```
 - Commit your changes:
 ```
 git commit -m 'Add some feature'
