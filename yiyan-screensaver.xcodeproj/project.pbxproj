@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B317EA02CA13E6600238051 /* yiyan_screenprotectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B317E9F2CA13E6600238051 /* yiyan_screenprotectApp.swift */; };
+		4B317EA02CA13E6600238051 /* yiyan_screensaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B317E9F2CA13E6600238051 /* yiyan_screensaverApp.swift */; };
 		4B317EA22CA13E6600238051 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B317EA12CA13E6600238051 /* ContentView.swift */; };
 		4B317EA42CA13E6900238051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B317EA32CA13E6900238051 /* Assets.xcassets */; };
 		4B317EA72CA13E6900238051 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B317EA62CA13E6900238051 /* Preview Assets.xcassets */; };
-		4B317EB12CA13E6A00238051 /* yiyan_screenprotectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B317EB02CA13E6A00238051 /* yiyan_screenprotectTests.swift */; };
-		4B317EBB2CA13E6A00238051 /* yiyan_screenprotectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B317EBA2CA13E6A00238051 /* yiyan_screenprotectUITests.swift */; };
-		4B317EBD2CA13E6A00238051 /* yiyan_screenprotectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B317EBC2CA13E6A00238051 /* yiyan_screenprotectUITestsLaunchTests.swift */; };
+		4B317EB12CA13E6A00238051 /* yiyan_screensaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B317EB02CA13E6A00238051 /* yiyan_screensaverTests.swift */; };
+		4B317EBB2CA13E6A00238051 /* yiyan_screensaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B317EBA2CA13E6A00238051 /* yiyan_screensaverUITests.swift */; };
+		4B317EBD2CA13E6A00238051 /* yiyan_screensaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B317EBC2CA13E6A00238051 /* yiyan_screensaverUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +35,15 @@
 
 /* Begin PBXFileReference section */
 		4B317E9C2CA13E6600238051 /* yiyan-screenprotect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yiyan-screenprotect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B317E9F2CA13E6600238051 /* yiyan_screenprotectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yiyan_screenprotectApp.swift; sourceTree = "<group>"; };
+		4B317E9F2CA13E6600238051 /* yiyan_screensaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yiyan_screensaverApp.swift; sourceTree = "<group>"; };
 		4B317EA12CA13E6600238051 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B317EA32CA13E6900238051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B317EA62CA13E6900238051 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B317EAC2CA13E6A00238051 /* yiyan-screenprotectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yiyan-screenprotectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B317EB02CA13E6A00238051 /* yiyan_screenprotectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yiyan_screenprotectTests.swift; sourceTree = "<group>"; };
+		4B317EB02CA13E6A00238051 /* yiyan_screensaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yiyan_screensaverTests.swift; sourceTree = "<group>"; };
 		4B317EB62CA13E6A00238051 /* yiyan-screenprotectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yiyan-screenprotectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B317EBA2CA13E6A00238051 /* yiyan_screenprotectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yiyan_screenprotectUITests.swift; sourceTree = "<group>"; };
-		4B317EBC2CA13E6A00238051 /* yiyan_screenprotectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yiyan_screenprotectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B317EBA2CA13E6A00238051 /* yiyan_screensaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yiyan_screensaverUITests.swift; sourceTree = "<group>"; };
+		4B317EBC2CA13E6A00238051 /* yiyan_screensaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yiyan_screensaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 		4B317E932CA13E6600238051 = {
 			isa = PBXGroup;
 			children = (
-				4B317E9E2CA13E6600238051 /* yiyan-screenprotect */,
-				4B317EAF2CA13E6A00238051 /* yiyan-screenprotectTests */,
-				4B317EB92CA13E6A00238051 /* yiyan-screenprotectUITests */,
+				4B317E9E2CA13E6600238051 /* yiyan-screensaver  */,
+				4B317EAF2CA13E6A00238051 /* yiyan-screensaverTests */,
+				4B317EB92CA13E6A00238051 /* yiyan-screensaverUITests */,
 				4B317E9D2CA13E6600238051 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,15 +91,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B317E9E2CA13E6600238051 /* yiyan-screenprotect */ = {
+		4B317E9E2CA13E6600238051 /* yiyan-screensaver  */ = {
 			isa = PBXGroup;
 			children = (
-				4B317E9F2CA13E6600238051 /* yiyan_screenprotectApp.swift */,
+				4B317E9F2CA13E6600238051 /* yiyan_screensaverApp.swift */,
 				4B317EA12CA13E6600238051 /* ContentView.swift */,
 				4B317EA32CA13E6900238051 /* Assets.xcassets */,
 				4B317EA52CA13E6900238051 /* Preview Content */,
 			);
-			path = "yiyan-screenprotect";
+			path = "yiyan-screensaver ";
 			sourceTree = "<group>";
 		};
 		4B317EA52CA13E6900238051 /* Preview Content */ = {
@@ -110,21 +110,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4B317EAF2CA13E6A00238051 /* yiyan-screenprotectTests */ = {
+		4B317EAF2CA13E6A00238051 /* yiyan-screensaverTests */ = {
 			isa = PBXGroup;
 			children = (
-				4B317EB02CA13E6A00238051 /* yiyan_screenprotectTests.swift */,
+				4B317EB02CA13E6A00238051 /* yiyan_screensaverTests.swift */,
 			);
-			path = "yiyan-screenprotectTests";
+			path = "yiyan-screensaverTests";
 			sourceTree = "<group>";
 		};
-		4B317EB92CA13E6A00238051 /* yiyan-screenprotectUITests */ = {
+		4B317EB92CA13E6A00238051 /* yiyan-screensaverUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4B317EBA2CA13E6A00238051 /* yiyan_screenprotectUITests.swift */,
-				4B317EBC2CA13E6A00238051 /* yiyan_screenprotectUITestsLaunchTests.swift */,
+				4B317EBA2CA13E6A00238051 /* yiyan_screensaverUITests.swift */,
+				4B317EBC2CA13E6A00238051 /* yiyan_screensaverUITestsLaunchTests.swift */,
 			);
-			path = "yiyan-screenprotectUITests";
+			path = "yiyan-screensaverUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B317EA22CA13E6600238051 /* ContentView.swift in Sources */,
-				4B317EA02CA13E6600238051 /* yiyan_screenprotectApp.swift in Sources */,
+				4B317EA02CA13E6600238051 /* yiyan_screensaverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B317EB12CA13E6A00238051 /* yiyan_screenprotectTests.swift in Sources */,
+				4B317EB12CA13E6A00238051 /* yiyan_screensaverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B317EBB2CA13E6A00238051 /* yiyan_screenprotectUITests.swift in Sources */,
-				4B317EBD2CA13E6A00238051 /* yiyan_screenprotectUITestsLaunchTests.swift in Sources */,
+				4B317EBB2CA13E6A00238051 /* yiyan_screensaverUITests.swift in Sources */,
+				4B317EBD2CA13E6A00238051 /* yiyan_screensaverUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

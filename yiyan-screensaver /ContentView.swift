@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var hitokotoCN: String = "获取中..."
-    @State private var hitokotoEN: String = "Loading..."
+    @State private var yiyanCN: String = "获取中..."
+    @State private var yiyanEN: String = "Loading..."
     @State private var timer: Timer?
     @State private var opacity: Double = 0.0
     @State private var currentTime: String = ""
@@ -34,7 +34,7 @@ struct ContentView: View {
                 Spacer()
                 
                 VStack {
-                    Text(formatHitokoto(hitokotoCN))
+                    Text(formatyiyan(yiyanCN))
                         .padding()
                         .multilineTextAlignment(.center)
                         .font(.title)
@@ -45,7 +45,7 @@ struct ContentView: View {
                         .frame(maxWidth: .infinity, alignment: .center)
                         .padding(.horizontal, 40)
                     
-                    Text(formatHitokoto(hitokotoEN))
+                    Text(formatyiyan(yiyanEN))
                         .padding()
                         .multilineTextAlignment(.center)
                         .font(.title)
@@ -85,7 +85,7 @@ struct ContentView: View {
             }
             .padding(.horizontal)
             .onAppear {
-                fetchHitokoto()
+                fetchyiyan()
                 startTimer()
                 updateTimeAndDate()
                 updateReminder()
@@ -98,7 +98,7 @@ struct ContentView: View {
 
     func startTimer() {
         timer = Timer.scheduledTimer(withTimeInterval: 10, repeats: true) { _ in
-            fetchHitokoto()
+            fetchyiyan()
         }
     }
 
@@ -107,7 +107,7 @@ struct ContentView: View {
         timer = nil
     }
 
-    func fetchHitokoto() {
+    func fetchyiyan() {
         let url = URL(string: "https://api.kekc.cn/api/yien")!
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
             if let error = error {
@@ -119,14 +119,14 @@ struct ContentView: View {
                 return
             }
             do {
-                let hitokotoResponse = try JSONDecoder().decode(HitokotoResponse.self, from: data)
+                let yiyanResponse = try JSONDecoder().decode(yiyanResponse.self, from: data)
                 DispatchQueue.main.async {
                     withAnimation {
                         opacity = 0.0
                     }
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                        hitokotoCN = hitokotoResponse.cn
-                        hitokotoEN = hitokotoResponse.en
+                        yiyanCN = yiyanResponse.cn
+                        yiyanEN = yiyanResponse.en
                         withAnimation {
                             opacity = 1.0
                         }
@@ -183,7 +183,7 @@ struct ContentView: View {
         }
     }
 
-    func formatHitokoto(_ text: String) -> String {
+    func formatyiyan(_ text: String) -> String {
         let punctuationSet: Set<Character> = [".", "。", "!", "！", "?", "？", ",", "，", ";", "；", ":", "："]
         var formattedText = ""
         for character in text {
@@ -196,7 +196,7 @@ struct ContentView: View {
     }
 }
 
-struct HitokotoResponse: Codable {
+struct yiyanResponse: Codable {
     let cn: String
     let en: String
 }
