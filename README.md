@@ -34,5 +34,5 @@ git commit -m 'Add some feature'
 git push origin feature/YourFeature
 - Open a pull request.
 LicenseThis project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments- KAPI API for providing motivational quotes.
+- Acknowledgments- KAPI API for providing motivational quotes.
 Feel free to customize this README to better fit your project's specifics! If you have any other questions or need further assistance, just let me know.
