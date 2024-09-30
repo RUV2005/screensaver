@@ -7,9 +7,13 @@ Features- Motivational Quotes: Displays quotes in both Chinese and English.
 Getting StartedPrerequisites- Xcode 12 or later
 - iOS 14.0 or later
 Installation- Clone the repository:
+```
 git clone https://github.com/ruv2005/screensaver.git
+```
 - Open the project in Xcode:
+```
 cd screensaver
+```
 open screensaver.xcodeproj
 - Build and run the app on your simulator or device.
 Usage- The app will automatically fetch and display a new motivational quote every 10 seconds.
@@ -29,9 +33,13 @@ Contributing- Fork the repository.
 - Create your feature branch:
 git checkout -b feature/YourFeature
 - Commit your changes:
+```
 git commit -m 'Add some feature'
+```
 - Push to the branch:
+```
 git push origin feature/YourFeature
+```
 - Open a pull request.
 LicenseThis project is licensed under the MIT License - see the LICENSE file for details.
 - Acknowledgments- KAPI API for providing motivational quotes.
